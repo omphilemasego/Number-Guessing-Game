@@ -1,0 +1,42 @@
+.center {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  body {
+	/* background-color: whitesmoke; */
+	color: rgb(8, 12, 11);
+	font-family: "Monaco, Times New Roman", Times, serif;
+    font-size:x-large;
+}
+
+  #number-input {
+    width: 350px;
+    height: 60px;
+    text-align: center;
+    margin: 1.5%;
+  }
+  
+  p, h1, h4, .btn {
+    margin: 10px;
+  }
+  
+  h1 {
+    margin: 50px;
+  }
+  
+  .background {
+    background-color: #5ce64a;
+  }
+  
+  p {
+      font-size: 16px;
+    padding-top: 10px;
+  }
+  
+  img {
+    width: 400px;
+    height: 350px;
+    margin-top: 50px;
+  }
+  

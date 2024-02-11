@@ -1,0 +1,53 @@
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Guessing Game - JS 1</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="style.css">
+
+    
+    
+  </head>
+
+<body class="background">
+  <div class="container-fluid">
+    <div class="center">
+
+      <!-- Game title -->
+      <h1>Guessing Game</h1>
+      <p id='helper-text'>Enter a guess from 1-100. Guess right to win a prize!</p>
+
+      <form id="guessing-form">
+        <div>
+          <!-- Number input box -->
+          <input class='hide-me' id="number-input" type="text" placeholder="Enter a guess" autocomplete="off">
+          <br>
+          <!-- Hint button -->
+          <button id="hint-btn" class="btn btn-default hide-me" type="button">Get a hint</button>
+          <!-- Submit button -->
+          <button id='submit-btn' class="btn btn-lg btn-primary hide-me" type="button">Guess</button>
+          <!-- Start Over button -->
+          <button id='startover-btn' class="btn btn-default" type="button">Refresh!</button>
+        </div>
+      </form>
+      <div id='prev-guesses' class='hide-me'></div>
+      <!-- Remaining guesses -->
+      <div class='hide-me'><p>Remaining Guesses:</p><h4 id="guesses-remaining">5</h4></div>
+      <div id="prize-image"></div>
+
+    </div>
+  </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="script.js"></script>
+
+    
+    
+    
+  </body>
+</html>
